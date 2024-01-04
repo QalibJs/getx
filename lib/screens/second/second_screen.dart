@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/instance_manager.dart';
 import 'package:getx_workout/constants/app_text_style.dart';
-import 'package:getx_workout/controller/main_counter.dart';
+import 'package:getx_workout/controller/main_controller.dart';
 
 class SecondScreen extends StatelessWidget {
   const SecondScreen({super.key});
@@ -9,7 +9,7 @@ class SecondScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     
-    final MainCounter counterIncrement = Get.find();
+    final MainController counterIncrement = Get.find();
 
     return Scaffold(
       appBar: AppBar(
